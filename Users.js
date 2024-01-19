@@ -17,7 +17,6 @@ mongoose.model("Users", UserSchema);
 
 const ScheduleSchema = new mongoose.Schema(
       {
-        
         tgl: { type: Date },
         hari: {
           type: String,
